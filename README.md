@@ -28,17 +28,16 @@
 </br>  
 
 ---  
-
 ## Kitchen
 &ensp;&ensp;&ensp;&ensp;A Kitchen é uma versão CLI (Command Line) do PDI. Com essa ferramenta é possível rodar tarefas e jobs através de qualquer command prompt ou terminal.  
 * `Um exemplo de execução no Windows:`
   ```
   D:
-  cd D:\Users\vinic\Documents\UFMG\Semestres\4_semestre\AD\TP1\Exemplos 
-  C:\PDI_pentaho\data-integration\Kitchen.bat /file Hello.kjb list /norep  
+  cd D:\Users\vinic\Documents\UFMG\Semestres\4_semestre\AD\TP1\Exemplo 
+  C:\Pentaho\PDI\data-integration\Kitchen.bat /file Convert_temps.kjb Kelvin Fahrenheit /norep  
   ```  
   O formato do comando é:  
-    * `PDI_PATH\Kitchen.bat /file <job or transformation file> <arguments> /norep`  
+    * `PDI_PATH/Kitchen.bat /file <job or transformation file> <arguments> /norep`  
     Onde /norep significa que não se deseja conectar no repositório
 
   </br>
