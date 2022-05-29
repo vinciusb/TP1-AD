@@ -17,11 +17,11 @@
 
 * ### Steps
   &ensp;&ensp;&ensp;&ensp;Um step é uma unidade de processamento de uma transformation. A imagem a seguir apresenta 2 steps, um leitor de arquivo CSV e uma step que executa alguma formula em específico.  
-  </br><img src="./img/Steps.png"></br>  
+  </br>![alt text](https://github.com/vinciusb/TP1-AD/blob/main/Img/Steps.png?raw=true)</br>   
 * ### Hops  
   &ensp;&ensp;&ensp;&ensp;Hops são o que liga steps e job entries entre si criando o caminho de dados do processo. Na imagem anterior é possível ver um hop, que no Spoon é representado por uma seta indicando o fluxo de onde a informação sai e para onde a informação vai.  
   &ensp;&ensp;&ensp;&ensp;Os Hops podem ser de 3 tipos: Unconditional, Follow when result is true and Follow when result is false. A imagem a seguir apresenta os 3.  
-  </br><img src="./img/Hops.png"></br>  
+  </br>![alt text](https://github.com/vinciusb/TP1-AD/blob/main/Img/Hops.png?raw=true)</br>  
   &ensp;&ensp;&ensp;&ensp;Embora os hops deem uma sensação que a execução dos steps se deem na ordem indicada por seu fluxo, isso nem sempre é verdade pois quase sempre serão executados em paralelo.
 * ### Job Entries
   &ensp;&ensp;&ensp;&ensp;Job Entries são a menor unidade de processamento de um Job. Portanto, Job Entries podem ser tanto Steps como Transformations em si.
