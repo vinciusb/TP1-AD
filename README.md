@@ -34,7 +34,7 @@
   ```
   D:
   cd D:\Users\vinic\Documents\UFMG\Semestres\4_semestre\AD\TP1\Exemplo 
-  C:\Pentaho\PDI\data-integration\Kitchen.bat /file Convert_temps.kjb Kelvin Fahrenheit /norep  
+  C:\Pentaho\PDI\data-integration\Kitchen.bat /file ./Entries/Convert_temps.kjb Kelvin Fahrenheit /norep  
   ```  
   O formato do comando é:  
     * `PDI_PATH/Kitchen.bat /file <job or transformation file> <arguments> /norep`  
