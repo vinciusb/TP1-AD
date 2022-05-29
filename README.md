@@ -3,12 +3,11 @@
 
 </br>  
 
-## Spoon
->&ensp;&ensp;&ensp;&ensp;O Spoon é uma ferramenta que permite os desenvolvedores criarem transformations e jobs através de uma interface visual e componentes visuais.  
->
->&ensp;&ensp;&ensp;&ensp;Transformations se referem a processos de extração, processamento e carregamento de dados.  
->
->&ensp;&ensp;&ensp;&ensp;Jobs são usados pra coordenarem as fontes, dependencias e execuções das atividades e transformações do ETL.
+---  
+## Spoon 
+&ensp;&ensp;&ensp;&ensp;O Spoon é uma ferramenta que permite os desenvolvedores criarem transformations e jobs através de uma interface visual e componentes visuais.    
+&ensp;&ensp;&ensp;&ensp;Transformations se referem a processos de extração, processamento e carregamento de dados.   
+&ensp;&ensp;&ensp;&ensp;Jobs são usados pra coordenarem as fontes, dependencias e execuções das atividades e transformações do ETL.</br></br>  
 
 * ### Vars
   É possível definir variaveis do sistema para serem acessados por qualquer job ou transformation. Para fazer isso basta acessar o arquivo
@@ -28,8 +27,10 @@
 
 </br>  
 
+---  
+
 ## Kitchen
->&ensp;&ensp;&ensp;&ensp;A Kitchen é uma versão CLI (Command Line) do PDI. Com essa ferramenta é possível rodar tarefas e jobs através de qualquer command prompt ou terminal.  
+&ensp;&ensp;&ensp;&ensp;A Kitchen é uma versão CLI (Command Line) do PDI. Com essa ferramenta é possível rodar tarefas e jobs através de qualquer command prompt ou terminal.  
 * `Um exemplo de execução no Windows:`
   ```
   D:
@@ -41,6 +42,8 @@
     Onde /norep significa que não se deseja conectar no repositório
 
   </br>
+
+---  
 ## Instalação
 * Para instalar o PDI clique [aqui](https://www.ericknishimoto.com.br/como-instalar-o-pentaho-data-integration-pdi-no-windows/) e siga o tutorial.
 
